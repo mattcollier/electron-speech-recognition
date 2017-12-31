@@ -1,0 +1,24 @@
+{
+  "name": "electron-speech-recognition",
+  "version": "1.0.0",
+  "description": "Electron Media Stream to Google Speech demo",
+  "keywords": [
+    "electron",
+    "google speech",
+    "voice recognition",
+    "snowboy"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "ebuild": "electron-rebuild --force",
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run ebuild"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "1.0.0",
+    "electron": "~1.7.0",
+    "electron-rebuild": "^1.6.0",
+    "snowboy": "~1.2.0"
+  }
+}
