@@ -1,8 +1,12 @@
-# electron-voice-recognition
+# electron-speech-recognition
 
 This is a demonstration project that shows how the [Media Stream API][1] in
 Chromium can be brought together with the [Google's Cloud Speech API][2] to
 enable speech recognition in an [Electron][3] application.
+
+The Media Stream API is used to capture audio from the user's microphone.  This
+project does not have a native SoX dependency like other node-only
+integrations.
 
 ## Installation
 ### Linux (Debian/Ubuntu)
